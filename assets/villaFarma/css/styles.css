@@ -1,0 +1,80 @@
+a:hover{
+    text-decoration: none;
+}
+
+.bg-own-primary{
+    background: linear-gradient( 90deg, #f8f9fa 5%,  #00cec9 50%, #f8f9fa 95%);
+}
+
+
+.logo-page{
+    max-height: 60px;
+    border-radius: 10px;
+}
+
+.img-information{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card-sombra{
+    box-shadow: 3px 3px 10px 0px black;
+    min-height: 365px;
+}
+
+.card-sombra:hover{
+    box-shadow: 5px 0px 10px 0px gray;
+    transform: scale(1.05);
+}
+
+.img-cartilla{
+    width: 90%;
+    height: 200px;
+}
+
+.titulo-cartilla{
+    max-width: 250px
+}
+
+.text-fb{
+    color: #235bc1;
+}
+
+/* Estilos del Footer */
+.footer {
+    background: #152F4F;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180CB;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
