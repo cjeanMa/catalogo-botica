@@ -24,62 +24,76 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Personas
+        Productos
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#optEstudiantes" aria-expanded="true" aria-controls="optEstudiantes">
+        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#optProductos" aria-expanded="true" aria-controls="optProductos">
           <i class="fas fa-user"></i>
-          <span>Estudiantes</span>
+          <span>Productos</span>
         </a>
-        <div id="optEstudiantes" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="optProductos" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Opciones: </h6>
-            <a class="collapse-item" href="<?php echo base_url();?>estudiante">Lista Estudiantes</a>
-            <a class="collapse-item" href="<?php echo base_url();?>estudiante/add">Nuevo Estudiante</a>
+            <a class="collapse-item" href="<?php echo base_url();?>producto">Lista</a>
+            <a class="collapse-item" href="<?php echo base_url();?>producto/add">Nuevo Producto</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#optDocentes" aria-expanded="true" aria-controls="optDocentes">
-          <i class="fas fa-user-tie"></i>
-          <span>Docentes</span>
+    <!--   <li class="nav-item">
+        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#optTipo" aria-expanded="true" aria-controls="optTipo">
+          <i class="fas fa-user"></i>
+          <span>Tipo</span>
         </a>
-        <div id="optDocentes" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="optTipo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Opciones</h6>
-            <a class="collapse-item" href="<?php echo base_url();?>docente">Lista Docentes</a>
-            <a class="collapse-item" href="<?php echo base_url();?>docente/add">Nuevo Docente</a>
+            <h6 class="collapse-header">Opciones: </h6>
+            <a class="collapse-item" href="<?php //echo base_url();?>tipo">Lista</a>
+            <a class="collapse-item" href="<?php //echo base_url();?>tipo/add">Nuevo Producto</a>
           </div>
         </div>
       </li>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider">
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#optCategoria" aria-expanded="true" aria-controls="optCategoria">
+          <i class="fas fa-user"></i>
+          <span>Categoria</span>
+        </a>
+        <div id="optCategoria" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones: </h6>
+            <a class="collapse-item" href="<?php //echo base_url();?>categoria">Lista</a>
+            <a class="collapse-item" href="<?php //echo base_url();?>categoria/add">Nuevo Producto</a>
+          </div>
+        </div>
+      </li> -->
+
+      <!-- Divider -->
+     <!--  <hr class="sidebar-divider">
+ -->
       <!-- Heading -->
-      <div class="sidebar-heading">
-        Procedimientos
-      </div>
+      <!-- <div class="sidebar-heading">
+        Usuario
+      </div> -->
 
       <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
+    <!--   <li class="nav-item">
         <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#optMatriculas" aria-expanded="true" aria-controls="optMatriculas">
           <i class="fas fa-fw fa-atlas"></i>
-          <span>Matriculas</span>
+          <span>Usuarios</span>
         </a>
         <div id="optMatriculas" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Opciones</h6>
-            <a class="collapse-item" href="<?php echo base_url();?>matricula/regular">Matricula Regular</a>
-            <a class="collapse-item" href="<?php echo base_url();?>matricula/recuperacion">Matricula Recuperacion</a>
-            <a class="collapse-item" href="<?php echo base_url();?>matricula/extraordinaria">Matricula Extraordinaria</a>
+            <a class="collapse-item" href="<?php /* echo base_url(); */?>matricula/regular">Matricula Regular</a>
+            <a class="collapse-item" href="<?php /* echo base_url(); */?>matricula/recuperacion">Matricula Recuperacion</a>
         </div>
       </li>
-
+ -->
 
 
 

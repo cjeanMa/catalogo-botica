@@ -7,11 +7,11 @@
         </div>
         <div class="row">
 
-            <?php foreach ($productos as $producto) { ?>
-                <div class="col-sm-6 col-12 col-md-4 col-lg-3 ">
-                    <div class="card card-sombra">
-                        <a href="<?= base_url("productos/salud/") . $producto['idProducto'] ?>">
-                            <img class="card-img-top img-cartilla" src="<?= base_url() ?>assets/villaFarma/img/img-products/product1.jpg" alt="Producto">
+            <?php foreach ($productosSalud as $producto) { ?>
+                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                    <div class="card mb-4 card-sombra">
+                        <a href="<?= base_url("portal/producto/") . $producto['idProducto'] ?>">
+                            <img class="card-img-top img-cartilla mt-3" src="<?= base_url() ?>assets/villaFarma/img/img-products/<?=$producto['imagenProducto']?>" alt="Producto">
                             <p class="text-center text-secondary py-3"><?= $producto['nombreProducto'] ?></p>
                             <div class="card-body bg-light">
                                 <p class="card-text font-weight-bold"><?= "S/." . $producto['precioProducto'] ?></p>
@@ -23,7 +23,7 @@
 
             <?php } ?>
             <br>
-            <button class="btn btn-success btn-block mt-4 text-uppercase">Ver Mas Productos</button>
+            <a href="<?=base_url('portal/salud')?>" class="btn btn-success btn-block mt-4 text-uppercase">Ver Mas Productos</a>
         </div>
         <br>
 
@@ -33,11 +33,11 @@
         </div>
         <div class="row">
 
-            <?php foreach ($productos as $producto) { ?>
+            <?php foreach ($productosProteccion as $producto) { ?>
                 <div class="col-sm-6 col-12 col-md-4 col-lg-3 ">
                     <div class="card mb-4 card-sombra">
-                        <a href="<?= base_url("productos/salud/") . $producto['idProducto'] ?>">
-                            <img class="card-img-top img-cartilla" src="<?= base_url() ?>assets/villaFarma/img/img-products/product1.jpg" alt="Producto">
+                        <a href="<?= base_url("portal/producto/") . $producto['idProducto'] ?>">
+                            <img class="card-img-top img-cartilla mt-3" src="<?= base_url('assets/villaFarma/img/img-products/').$producto['imagenProducto'] ?>" alt="Producto">
                             <div class="titulo-card">
                                 <p class="text-center text-secondary py-3"><?= $producto['nombreProducto'] ?></p>
                             </div>
@@ -52,7 +52,7 @@
 
             <?php } ?>
             <br>
-            <button class="btn btn-success btn-block mt-4 text-uppercase">Ver Mas Productos</button>
+            <a href="<?=base_url('portal/proteccion')?>" class="btn btn-success btn-block mt-4 text-uppercase">Ver Mas Productos</a>
         </div>
 
     </div>

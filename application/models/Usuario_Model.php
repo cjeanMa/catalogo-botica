@@ -15,4 +15,12 @@ class Usuario_Model extends CI_Model {
                 $this->db->where('idUsuario', $id);
                 return $this->db->get('usuario')->result_array();
         }
+
+        function verificar($user, $pass){
+                $data_where= array('userName'=>$user, 'password'=>$pass);
+                $this->db->where($data_where);
+                return $this->db->get('usuario')->row_array();
+        }
+
+
 }

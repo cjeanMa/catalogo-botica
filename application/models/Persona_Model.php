@@ -15,4 +15,10 @@ class Persona_Model extends CI_Model {
                 $this->db->where('idPersona', $id);
                 return $this->db->get('persona')->result_array();
         }
+
+        /*Buscar persona por idUsuario*/
+        function get_persona_usuario($idUsuario){
+                $this->db->where('idUsuario', $idUsuario);
+                return $this->db->get('persona')->row_array();
+        }
 }

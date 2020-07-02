@@ -44,7 +44,7 @@
 
             </div>
             <!-- End of Main Content -->
-
+            <?php $this->load->view('template/portal/information')?>
             <?php $this->load->view('template/portal/footer'); ?>
 
         </div>

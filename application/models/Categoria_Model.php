@@ -14,6 +14,6 @@ class Categoria_Model extends CI_Model {
 
         function get_categoria($id){
                 $this->db->where('idCategoria', $id);
-                return $this->db->get('categoria')->result_array();
+                return $this->db->get('categoria')->row_array();
         }
 }

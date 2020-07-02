@@ -15,4 +15,9 @@ class Tipo_Model extends CI_Model {
                 $this->db->where('idTipo', $id);
                 return $this->db->get('tipo')->result_array();
         }
+
+        function get_tipo_categoria($idCategoria){
+                $this->db->where('idCategoria', $idCategoria);
+                return $this->db->get('tipo')->result_array();
+        } 
 }

@@ -8,10 +8,11 @@
             <p class="pr-5 text-white-50">
             <h4 class="mt-lg-0 mt-sm-4">Direccion</h4>
             <p>Jr. Andino 532 - Puno</p>
-            <p class="mb-2"><i class="fa fa-phone mr-3"></i>(51) 950 123423</p>
-            <p><i class="fa fa-envelope mr-3"></i>info@hsdf.com</p>
+            <p class="mb-2"><i class="fa fa-phone mr-3"></i>(51) 957 118712</p>
+            <p><i class="fa fa-envelope mr-3"></i>villafarma2020@gmail.com</p>
             </p>
-            <p><a href="#"><i class="fab fa-facebook mr-1"></i></a><a href="#"><i class="fab fa-twitter"></i></a></p>
+            <p><a href="https://www.facebook.com/Villafarma-105464971231766" target="_blanck"><i class="fab fa-facebook mr-1"></i></a>
+            <a href="https://www.facebook.com/Villafarma-105464971231766" target="_blanck"><i class="fab fa-twitter"></i></a></p>
           </div>
           <div class="col-lg-4 col-xs-12 links">
             <h4 class="mt-lg-0 mt-sm-3">Enlaces</h4>
@@ -26,7 +27,7 @@
             </ul>
           </div>
           <div class="col-lg-4 col-xs-12 location">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Falishomepuno&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVillafarma-105464971231766&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
         <div class="row mt-5">
